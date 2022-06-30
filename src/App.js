@@ -30,7 +30,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="app-title">Monsters Rolodex</h1>
+      <h1 className="app-title">Monsters Codex</h1>
       <SearchBox
         onChangeHandler={onSearchChange}
         placeHolder="search monsters"
@@ -40,6 +40,6 @@ const App = () => {
     </div>
   );
 };
-
+// i have changed the app
 
 export default App;
