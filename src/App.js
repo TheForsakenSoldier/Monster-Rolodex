@@ -35,7 +35,7 @@ const App = () => {
         onChangeHandler={onSearchChange}
         placeHolder="search monsters"
         className="monsters-search-box"
-      />
+      />git
       <CardList monsters={filteredMonsters} />
     </div>
   );
