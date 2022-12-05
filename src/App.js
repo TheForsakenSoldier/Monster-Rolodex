@@ -1,4 +1,4 @@
-import "./App.css";
+import './App.css';
 import CardList from "./components/card-list/card-list.component";
 import SearchBox from "./components/search-box/search-box.component";
 import { useState, useEffect } from "react";
@@ -35,7 +35,7 @@ const App = () => {
         onChangeHandler={onSearchChange}
         placeHolder="search monsters"
         className="monsters-search-box"
-      />git
+      />
       <CardList monsters={filteredMonsters} />
     </div>
   );
